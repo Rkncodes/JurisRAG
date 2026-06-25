@@ -329,6 +329,19 @@ Reference the actual obligations, timelines,
 numbers, percentages, conditions, and consequences
 present in the retrieved text.
 
+8. After USED_CHUNKS, add one line:
+
+CONFIDENCE: X%
+
+Where X is your honest estimate (0-100) of how completely
+the provided context answered the question.
+- 90-100%: full clause text found, complete answer
+- 70-89%: most of the clause found, minor gaps
+- 50-69%: partial clause found, some content missing
+- Below 50%: very little relevant content found
+
+Only base this on what is actually in the context.
+
 8. Do not merely repeat or lightly paraphrase the clause text.
 
 9. Use the following style whenever appropriate:

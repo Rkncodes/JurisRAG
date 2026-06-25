@@ -30,7 +30,6 @@ def get_neighbor_chunks(metadata):
         chunk_id
     )
 
-
     neighbors = collection.get(
         where={
             "pdf_name": pdf_name
@@ -67,7 +66,8 @@ print(
     collection.count()
 )
 
-def retrieve(query, k=15):
+# ── CHANGED: added force_agreement=None parameter ─────────────────────────
+def retrieve(query, k=15, force_agreement=None):
 
     print("\nQUERY RECEIVED:", query)
 
@@ -121,23 +121,39 @@ def retrieve(query, k=15):
         normalize_embeddings=True
     ).tolist()
 
-
     where_filter = None
 
-    agreement_pdf = detect_agreement(
-        query,
-        collection
-    )
-    
-    if agreement_pdf:
+    # ── CHANGED: force_agreement takes priority over detect_agreement ─────
+    if force_agreement:
 
-     where_filter = {
-        "pdf_name": agreement_pdf
-    }
+        where_filter = {
+            "pdf_name": force_agreement
+        }
 
-     print(
-        f"\nAGREEMENT DETECTED: {agreement_pdf}"
-    )
+        agreement_pdf = force_agreement
+
+        print(
+            f"\nFORCE AGREEMENT: {force_agreement}"
+        )
+
+    else:
+
+        agreement_pdf = detect_agreement(
+            query,
+            collection
+        )
+
+        if agreement_pdf:
+
+            where_filter = {
+                "pdf_name": agreement_pdf
+            }
+
+            print(
+                f"\nAGREEMENT DETECTED: {agreement_pdf}"
+            )
+
+    # ─────────────────────────────────────────────────────────────────────
 
     print("\n========== RETRIEVER DEBUG ==========")
     print("QUERY:", query)

@@ -1,6 +1,8 @@
 [
   {
     "pdf_name": "1. BSNL MSA dated 9 Oct 2015.pdf",
+    "display_name": "BSNL & Idea MSA",
+    "family": "BSNL",
     "agreement_type": "Master Service Agreement",
     "agreement_date": "2015-10-09",
     "parties": [
@@ -14,11 +16,9 @@
       "bharat sanchar nigam limited",
       "m/s bsnl",
       "m/s bharat sanchar nigam limited",
-
       "idea",
       "idea cellular",
       "idea cellular limited",
-
       "idea cellular infrastructure services limited",
       "idea infrastructure",
       "icisl"
@@ -27,6 +27,8 @@
 
   {
     "pdf_name": "MSAQuippo-Airtel-29.11.2006.pdf",
+    "display_name": "Airtel & Quippo MSA",
+    "family": "AIRTEL",
     "agreement_type": "Master Services Agreement",
     "agreement_date": "2006-11-29",
     "parties": [
@@ -37,7 +39,6 @@
       "airtel",
       "bharti airtel",
       "bharti airtel limited",
-
       "quippo",
       "quippo telecom",
       "quippo telecom infrastructure",
@@ -47,6 +48,8 @@
 
   {
     "pdf_name": "ATC - BSNL KEC AGREEMENT.pdf",
+    "display_name": "BSNL & KEC MSA",
+    "family": "BSNL",
     "agreement_type": "Master Sharing Agreement",
     "agreement_date": "2014-05",
     "parties": [
@@ -57,7 +60,6 @@
       "kec",
       "kec international",
       "kec international limited",
-
       "bsnl",
       "bharat sanchar nigam",
       "bharat sanchar nigam limited",
@@ -68,6 +70,8 @@
 
   {
     "pdf_name": "BSNL & Voda (IP)  MSA dated 20 Jan 2014- USO.pdf",
+    "display_name": "BSNL & Vodafone MSA (USO)",
+    "family": "BSNL",
     "agreement_type": "Master Sharing Agreement",
     "agreement_date": "2014-01-20",
     "parties": [
@@ -80,14 +84,11 @@
       "vodafone india",
       "vodafone cellular",
       "vodafone cellular limited",
-
       "vodafone south",
       "vodafone south limited",
-
       "voda",
       "vi",
       "vodafone idea",
-
       "bsnl",
       "bharat sanchar nigam",
       "bharat sanchar nigam limited",
@@ -98,6 +99,8 @@
 
   {
     "pdf_name": "WTTIL-BSNL- 3rd EOI MSA(19th April-10).pdf",
+    "display_name": "BSNL & WTTIL MSA",
+    "family": "BSNL",
     "agreement_type": "Infrastructure Sharing Agreement",
     "agreement_date": "2010-04-19",
     "parties": [
@@ -110,7 +113,6 @@
       "bharat sanchar nigam limited",
       "m/s bsnl",
       "m/s bharat sanchar nigam limited",
-
       "wttil",
       "wireless tt",
       "wireless tt info services",
@@ -120,6 +122,8 @@
 
   {
     "pdf_name": "Airtel-TTIPL-masterservicesagmt.PDF",
+    "display_name": "Airtel & TTIPL MSA",
+    "family": "AIRTEL",
     "agreement_type": "Master Services Agreement",
     "agreement_date": "2006-12",
     "parties": [
@@ -130,43 +134,18 @@
       "airtel",
       "bharti airtel",
       "bharti airtel limited",
-
       "ttipl",
       "telecom tower and infrastructure",
       "telecom tower and infrastructure private limited",
-
       "essar",
       "telecom tower infrastructure"
     ]
   },
 
   {
-    "pdf_name": "AIRTEL2.pdf",
-    "agreement_type": "Master Services Agreement",
-    "agreement_date": "2009-10-14",
-    "parties": [
-      "Bharti Airtel Limited",
-      "Bharti Hexacom Limited",
-      "ATC India Tower Corporation Private Limited"
-    ],
-    "aliases": [
-      "airtel",
-      "bharti airtel",
-      "bharti airtel limited",
-
-      "bharti hexacom",
-      "bharti hexacom limited",
-
-      "atc",
-      "atc india",
-      "atc india tower",
-      "atc india tower corporation",
-      "atc india tower corporation private limited"
-    ]
-  },
-
-  {
     "pdf_name": "Topaz MSA Voda-ATCTIPL MSA for Aquired & New Sites.pdf",
+    "display_name": "Vodafone & ATC Telecom MSA",
+    "family": "VODA",
     "agreement_type": "Master Service Agreement",
     "agreement_date": "2017-11-13",
     "parties": [
@@ -178,18 +157,14 @@
       "vodafone",
       "vodafone india",
       "vodafone india limited",
-
       "vodafone mobile",
       "vodafone mobile services",
       "vodafone mobile services limited",
-
       "voda",
       "vi",
       "vodafone idea",
-
       "vil",
       "vmsl",
-
       "atc",
       "atc telecom",
       "atc telecom infrastructure",
@@ -198,17 +173,27 @@
   },
 
   {
-    "pdf_name": "AIRTEL2.pdf",
-    "agreement_type": "Master Service Agreement",
-    "agreement_date": "",
+    "pdf_name": "Bharti Airtel MSA - 14th Oct 09 (Comp Ver).pdf",
+    "display_name": "Airtel & ATC India MSA",
+    "family": "AIRTEL",
+    "agreement_type": "Master Services Agreement",
+    "agreement_date": "2009-10-14",
     "parties": [
-      "ATC ITC",
-      "Airtel"
+      "Bharti Airtel Limited",
+      "Bharti Hexacom Limited",
+      "ATC India Tower Corporation Private Limited"
     ],
     "aliases": [
-      "airtel2",
-      "atcitc",
-      "atc itc"
+      "airtel",
+      "bharti airtel",
+      "bharti airtel limited",
+      "bharti hexacom",
+      "bharti hexacom limited",
+      "atc",
+      "atc india",
+      "atc india tower",
+      "atc india tower corporation",
+      "atc india tower corporation private limited"
     ]
   }
 ]
